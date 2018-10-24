@@ -816,3 +816,11 @@ button:focus{
 #myBtn img{
     width: 80%;
 }
+.services-block img, .services-block i {
+    width: 40px;
+	height: 40px;
+	filter: grayscale(100%);
+}
+.services-block img:hover, .services-block img:focus {
+	filter: grayscale(0%);
+}
